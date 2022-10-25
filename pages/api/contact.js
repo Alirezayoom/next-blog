@@ -28,9 +28,6 @@ async function handler(req, res) {
         "mongodb+srv://ali:ali@cluster0.qafjedp.mongodb.net/sms?retryWrites=true&w=majority"
       );
     } catch (error) {
-      console.log(
-        "errrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrr"
-      );
       res.status(500).json({ message: "couold not connect to database" });
     }
 
