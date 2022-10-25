@@ -10,7 +10,7 @@ function Hero() {
         width={300}
         height={300}
       />
-      <h1>Hi, I'm Alireza</h1>
+      <h1>Hi, I am Alireza</h1>
       <p>
         I blog about web development - especially frontend frameworks like react
         and vue.
