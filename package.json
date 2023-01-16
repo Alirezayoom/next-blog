@@ -1,5 +1,5 @@
 {
-  "name": "my-next-app",
+  "name": "next-13",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -9,16 +9,10 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "gray-matter": "^4.0.3",
-    "mongodb": "^4.11.0",
-    "next": "12.3.1",
+    "eslint": "8.26.0",
+    "eslint-config-next": "13.0.1",
+    "next": "13.0.1",
     "react": "18.2.0",
-    "react-dom": "18.2.0",
-    "react-markdown": "^8.0.3",
-    "react-syntax-highlighter": "^15.5.0"
-  },
-  "devDependencies": {
-    "eslint": "8.24.0",
-    "eslint-config-next": "12.3.1"
+    "react-dom": "18.2.0"
   }
 }
