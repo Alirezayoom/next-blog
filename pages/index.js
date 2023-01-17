@@ -1,5 +1,5 @@
+import FeaturedPosts from "../components/home/featured-posts";
 import Hero from "../components/home/hero";
-import PostsGrid from "../components/posts/posts-grid";
 
 const dummyPosts = [
   {
@@ -40,7 +40,7 @@ export default function HomePage() {
   return (
     <>
       <Hero />
-      <PostsGrid posts={dummyPosts} />
+      <FeaturedPosts posts={dummyPosts} />
     </>
   );
 }
